@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="BlackJack.css" >
+    <title>BlackJackCounter</title>
+</head>
+<body>
+<div >
+    <img id="blackjack-img" src="https://www.casinoonlinefrancais.info/img/site/~400/639/utilisation-strategie-base-3.jpg">
+</div>
+<div id="btn-section">
+    <h1 id="head"> Counter <p id="counter"></p></h1>
+    <input placeholder="Number of deck" onchange="deckSet(this.value)">
+    <p id="card-counter"></p>
+    <button class="btn" id="btn1" onclick="add1()"> +1 <br>(10,J,Q,K)</button>
+    <button class="btn" id="btn-1" onclick="remove1()"> -1  <br>(2,3,4,5,6)</button>
+
+</div>
+
+<script src="BlackJack.js"></script>
+</body>
+</html>
